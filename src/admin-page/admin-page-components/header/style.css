@@ -1,0 +1,124 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    width: 100%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+  }
+   /* The dropdown container */
+   .dropdown1 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown1 .dropbtn1 {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: #E1CFCF;
+    text-align: center;
+    padding: 6px 10px;
+    padding-top: 2.5px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: #E1CFCF;
+    text-align: center;
+    padding: 6px 2px;
+    padding-top: 2.5px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #A8602B;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-right: 0px;
+    right: 0;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .uicon {
+    color: #E1CFCF;
+    font-size: 18px;
+    margin-left: 30px;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .help {
+    color: #E1CFCF;
+    font-size: 18px;
+    text-align: right;
+    display: inline-block;
+    margin-left: 200px;
+  }
+
+  .speech{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size : 20px;
+  }
+  
+  .textall {
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr; /* fraction*/
+  }
+
+  

@@ -1,0 +1,16 @@
+.grid-container-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: auto; */
+    gap: 1px;
+}
+
+.grid-container-main > div {
+text-align: center;
+/* padding: 2px 0 0 0; */
+padding-bottom: 0px;
+}
+
+.form {
+    padding-top: 0px;
+}

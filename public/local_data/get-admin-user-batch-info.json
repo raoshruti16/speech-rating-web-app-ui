@@ -1,0 +1,43 @@
+{
+    "success": true,
+    "http_status": 200,
+    "response": "OK",
+    "data": [
+        {
+            "user_name": "nibalasu",
+            "user_batch_details": [
+                {
+                    "batch_name": "batch1", 
+                    "recently_rated_file": "audio_file_1",
+                    "last_access_time": "2023-02-01T02:11:47",
+                    "completion_status": "completed"
+                },
+                {
+                    "batch_name": "batch2", 
+                    "recently_rated_file": "audio_file_2",
+                    "last_access_time": "2023-02-01T02:11:47",
+                    "completion_status": "in progress"
+                }				
+            ],
+            "batches_assigned": 2,
+            "date_assigned": "2023-01-01T02:11:47",
+            "completion_status": "in progress",
+            "completion_date": "2023-02-01T02:11:47"
+        },
+        {
+            "user_name": "jopresto",
+            "user_batch_details": [
+                {
+                    "batch_name": "batch1", 
+                    "recently_rated_file": "audio_file_1",
+                    "last_access_time": "2023-02-01T02:11:47",
+                    "completion_status": "in progress"
+                }				
+            ],
+            "batches_assigned": 1,
+            "date_assigned": "2023-01-01T02:11:47",
+            "completion_status": "in progress",
+            "completion_date": "2023-02-01T02:11:47"
+        }
+    ]	
+  }

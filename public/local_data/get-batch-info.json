@@ -1,0 +1,42 @@
+{
+    "success": true,
+    "http_status": 200,
+    "response": "OK",
+    "data": {
+        "batch_info":[
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe3",
+                "batch_name": "batch1"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe4",
+                "batch_name": "batch2"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe5",
+                "batch_name": "batch3"
+            },		
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe6",
+                "batch_name": "batch4"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe7",
+                "batch_name": "batch5"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe8",
+                "batch_name": "batch6"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe9",
+                "batch_name": "batch7"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2f10",
+                "batch_name": "batch8"
+            }	
+        ],
+        "is_admin": false
+    }
+  }

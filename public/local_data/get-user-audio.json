@@ -1,0 +1,64 @@
+{
+    "success": true,
+    "http_status": 200,
+    "response": "OK",
+    "data": {
+        "batch_details":
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe3",
+                "batch_name":"batch1",
+                "study_name": "study1",
+                "rating_category": {
+                    "left_level":"Fully Derhotic or Not /s/ or Not /z/" ,
+                    "right_level": "Fully Rhotic or /s/ or /z/"
+                },
+                "batch_instruction": "first instruction for the batch.",
+                "rating_severity": {
+                    "1": "Substitution of different phoneme",
+                    "2": "Obvious distortion, minimal/slight rhotic quality",
+                    "3": "Distortion with some rhotic quality",
+                    "4": "Very close, leaning distorted",
+                    "5": "Very close, leaning correct",
+                    "6": "Correct /r/  but slightly unnatural sound",
+                    "7": "Fully correct (can be lengthened)"
+                },
+                                "rating_error_level": 4,
+                "low_rating_options": [
+                    "/w/",
+                    "/l/",
+                    "vowel",
+                    "other",
+                    "[θ] or [ð]; Interdental; Fronted",
+                    "[ɬ], [sˡ] or [ɮ], [zˡ]; Lateralized", 
+                    "[ʃ] or [ʒ]; Palatalized; Backed ",
+                    "[tʃ],[ts], [dʒ], or [dz]; Affricate ",
+                    "[t] or [d]; Stopped ",
+                    "[∅]; Omitted "
+                ],
+                "audio_file_details": [
+                    {
+                        "audio_file_id": "3d80c964-a417-11ed-a8fc-0242ac1200022",
+                        "audio_file_name": "audio_file_1",
+                        "audio_file_url": "G:\\AS-Filer\\csd-jopresto-lab\\Chaining\\PERCEPTION_DB\\audio\\SAMPLESTUDY1\\batch1\\audio_file_1",
+                        "audio_file_number": 3,
+                        "audio_transcription": "His glare was wicked."
+                    },
+                    {
+                        "audio_file_id": "3d80c964-a417-11ed-a8fc-0242ac1200023",
+                        "audio_file_name": "audio_file_2",
+                        "audio_file_url": "G:\\AS-Filer\\csd-jopresto-lab\\Chaining\\PERCEPTION_DB\\audio\\SAMPLESTUDY1\\batch1\\audio_file_2",
+                        "audio_file_number": 4,
+                        "audio_transcription": "His glare was wicked 2."
+                    },
+                    {
+                        "audio_file_id": "3d80c964-a417-11ed-a8fc-0242ac1200024",
+                        "audio_file_name": "audio_file_3",
+                        "audio_file_url": "G:\\AS-Filer\\csd-jopresto-lab\\Chaining\\PERCEPTION_DB\\audio\\SAMPLESTUDY1\\batch1\\audio_file_3",
+                        "audio_file_number": 5,
+                        "audio_transcription": "His glare was wicked 3."
+                    }
+                ]
+            }		
+        },
+        "end_user_type": "user"
+    }

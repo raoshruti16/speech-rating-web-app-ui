@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminHeader renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    style="background-color: rgb(168, 96, 43); padding: 14px 16px;"
+  >
+    <div
+      class="dropdown1"
+    >
+      <button
+        class="dropbtn1"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <i
+          class="fa fa-caret-down"
+        />
+      </button>
+    </div>
+    <div
+      class="textall"
+    >
+      <div
+        class="speech"
+      >
+        Speech App 
+      </div>
+      <div
+        class="help dropdown uicon"
+      >
+        Welcome  Shruti  !
+        <button
+          class="dropbtn"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          class="dropdown-content"
+        >
+          <a
+            href="#"
+          >
+            Switch to User
+          </a>
+          <a
+            href="#"
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

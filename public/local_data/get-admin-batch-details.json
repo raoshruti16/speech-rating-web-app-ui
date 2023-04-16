@@ -1,0 +1,69 @@
+{
+    "success": true,
+    "http_status": 200,
+    "response": "OK",
+    "data": {
+        "batch_details":[
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe3",
+                "batch_name":"batch1",
+                "spreadsheet_link": "/path/to/download/file",
+                "number_of_users": 2,
+                "users_added": [
+                    "nibalasu",
+                    "nrbenway"
+                ],
+                "batch_instruction": "First instruction of the batch",
+                "randomize_file_playback": true,				
+                "file_reassign_percentage": 5,
+                "status": "assigned",
+                "file_upload_status": "Uploaded"
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe4",
+                "batch_name":"batch2",
+                "spreadsheet_link": "/path/to/download/file",
+                "number_of_users": 3,
+                "users_added": [
+                    "nibalasu",
+                    "nrbenway",
+                    "jpresto"
+                ],
+                "batch_instruction": "Instruction of batch2",
+                "randomize_file_playback": false,	
+                "file_reassign_percentage": 4,			
+                "status": "in progress",
+                "file_upload_status": "Uploaded"
+                
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe5",
+                "batch_name":"batch3",
+                "spreadsheet_link": "/path/to/download/file",
+                "number_of_users": 3,
+                "users_added": [
+                    "nibalasu",
+                    "jopresto",
+                    "nrbenway"
+                ],
+                "batch_instruction": "Batch3 instruction",
+                "randomize_file_playback": true,	
+                "file_reassign_percentage": 3,			
+                "status": "completed",
+                "file_upload_status": "Uploaded"				
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe6",
+                "batch_name":"batch5",
+                "status": "",
+                "file_upload_status": "Scheduled"				
+            },
+            {
+                "batch_id": "58a8c5fb-ae6d-4bca-81ac-74b589be2fe7",
+                "batch_name":"batch6",
+                "status": "",
+                "file_upload_status": "In Progress"				
+            }				
+        ]
+    }
+  }
